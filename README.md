@@ -3,8 +3,7 @@
 
 ## Home Page Wireframe and Sketch
 <img width="1280" height="1836" alt="Home" src="https://github.com/user-attachments/assets/6fc169a4-dec3-4316-be3e-8df0872dd9b0" />
-<img width="781" height="1080" alt="About Us Page" src="https://github.com/user-attachments/assets/d8f83574-a875-4ae8-b635-4a52ca43d1f8" />
-
+![Home Page](https://github.com/user-attachments/assets/7c4c5fca-e0de-4202-a804-93f7370e5af8)
 
 ## Players Page Wireframe and Sketch
 <img width="2560" height="5090" alt="Players" src="https://github.com/user-attachments/assets/29a3e573-88d3-441e-938c-bf4d8b1c013c" />
