@@ -2,8 +2,9 @@
  Sketches and Wireframes for Web Design Assignment 1 
 
 ## Home Page Wireframe and Sketch
-<img width="2560" height="3672" alt="Home" src="https://github.com/user-attachments/assets/1f654215-ce00-41d3-8b7a-dca58820eb74" />
-<img width="829" height="1080" alt="Home Page" src="https://github.com/user-attachments/assets/24e10f3f-7011-4266-970f-73de14f76381" />
+<img width="1280" height="1836" alt="Home" src="https://github.com/user-attachments/assets/6fc169a4-dec3-4316-be3e-8df0872dd9b0" />
+<img width="781" height="1080" alt="About Us Page" src="https://github.com/user-attachments/assets/d8f83574-a875-4ae8-b635-4a52ca43d1f8" />
+
 
 ## Players Page Wireframe and Sketch
 <img width="2560" height="5090" alt="Players" src="https://github.com/user-attachments/assets/29a3e573-88d3-441e-938c-bf4d8b1c013c" />
