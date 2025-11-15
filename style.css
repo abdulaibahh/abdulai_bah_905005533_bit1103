@@ -137,43 +137,45 @@ body {
 
 .news-card {
   width: 30%;
+  padding: 10px;
+  border-radius: 10px;
 }
 
-.news-img {
-  width: 50%;
-  height: 180px;
-  border-radius: 8px;
-}
 
 .news-name {
   margin: 10px 0;
   font-weight: 600;
 }
 
+.news-placeholder {
+  width: 100%;
+  height: 180px;
+  background: #e5e5e5;
+  border: 1px solid #bcbcbc;
+}
+
+
 /* HIGHLIGHTS */
 #highlights {
   padding: 40px 0;
   text-align: center;
 }
-
 .highlight-row {
   display: flex;
   gap: 20px;
-  padding: 25px;
 }
 
 .highlight-card {
-  width: 23%;
-  text-decoration: none;
-  color: #333;
-  background: peachpuff;
-  border-radius: 10px;
+  width: 100%;
+  padding: 20px ;
+  text-align: center;
 }
 
-.highlight-card img {
+.highlight-placeholder {
   width: 100%;
-  height: 150px;
-  object-fit: cover;
+  height: 120px;
+  background: #ccc;        /* Light grey placeholder */
+  border-radius: 8px;
 }
 
 .highlight-card p {
@@ -225,3 +227,180 @@ body {
 .copyright {
 text-align: center;
 }
+
+/* players Page */
+#players-page {
+  margin: 20px;
+}
+/* PAGE TITLE */
+#players-page .section-title {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 40px;
+}
+
+/* SEARCH BAR */
+.player-search input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  margin: 20px 0;
+}
+
+/* FILTERS */
+.player-filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.player-filters select {
+  flex: 1;
+  padding: 10px;
+  background: #c8dafc;
+  border: 1px solid #bbb;
+}
+
+/* PLAYER GRID */
+.player-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+/* PLAYER CARD */
+.player-card {
+  border: 1px solid #bbb;
+  padding: 20px;
+  text-align: center;
+}
+
+.player-card .player-img {
+  width: 100%;
+  height: 180px;
+  background: #e8e8e8;
+  border: 1px solid #bbb;
+  margin-bottom: 15px;
+}
+
+.profile-btn {
+  padding: 8px 20px;
+  background: #ddd;
+  border: none;
+  cursor: pointer;
+}
+
+/* PROFILE SECTION */
+.profile-section {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.profile-img {
+  width: 300px;
+  height: 240px;
+  background: #e8e8e8;
+  border: 1px solid #bbb;
+}
+
+.profile-info h3 {
+  margin-bottom: 10px;
+}
+
+/* BIOGRAPHY */
+.biography {
+  margin-bottom: 50px;
+}
+
+.biography h3 {
+  margin-bottom: 10px;
+}
+
+.bio-buttons button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background: #ddd;
+  border: none;
+  cursor: pointer;
+}
+
+/* STATS */
+.stats-section h3 {
+  margin-bottom: 20px;
+}
+
+.stats-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.stat-box {
+  flex: 1;
+}
+
+.stat-box label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.stat-box input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #bbb;
+}
+
+/* Matches page */
+/* PAGE TITLE */
+
+#matches-page {
+  margin: 20px;
+}
+
+#matches-page .section-title {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* SECTION HEADERS */
+.match-section h3 {
+  margin-bottom: 10px;
+}
+
+/* TABLE STYLE */
+.match-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+
+.match-table th,
+.match-table td {
+  border: 1px solid #b7b7b7;
+  padding: 10px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.match-table thead {
+  background: #f3f3f3;
+}
+
+/* BUTTONS */
+.match-buttons {
+  margin: 20px 0 60px 0;
+  display: flex;
+  gap: 20px;
+}
+
+.match-buttons button {
+  padding: 10px 25px;
+  background: #ddd;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  font-size: 15px;
+}
+
